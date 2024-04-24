@@ -1,0 +1,13 @@
+[project]
+name = "scraper"
+version = "1.0.0"
+description = "Joshua Roca internship project 2024."
+dependencies = [
+    "flask",
+    "openpyxl",
+    "selenium",
+]
+
+[build-system]
+requires = ["flit_core<4"]
+build-backend = "flit_core.buildapi"
